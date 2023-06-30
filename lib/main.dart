@@ -5,9 +5,8 @@ import 'package:first_app/views/login_view.dart';
 import 'package:first_app/views/register_view.dart';
 import 'package:first_app/views/verify_email_view.dart';
 import 'package:flutter/material.dart';
-import 'dart:developer' as devtools show log;
 
-//chap 18 - 27:47
+//chap 19 - 00:00
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
   runApp(MaterialApp(
@@ -20,6 +19,7 @@ void main() {
     routes: {
       '/login/': (context) => const LoginView(),
       '/register/': (context) => const RegisterView(),
+      '/notes/': (context) => const NotesView(),
     },
   ));
 }
