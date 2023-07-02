@@ -7,7 +7,7 @@ import 'package:first_app/views/register_view.dart';
 import 'package:first_app/views/verify_email_view.dart';
 import 'package:flutter/material.dart';
 
-//chap 20 - 00:00
+//chap 21 - 13:40
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
   runApp(MaterialApp(
