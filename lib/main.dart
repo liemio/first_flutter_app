@@ -7,7 +7,7 @@ import 'package:first_app/views/register_view.dart';
 import 'package:first_app/views/verify_email_view.dart';
 import 'package:flutter/material.dart';
 
-//chap 21 - 13:40
+//chap 22 - 00:00
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
   runApp(MaterialApp(
@@ -21,6 +21,7 @@ void main() {
       loginRoute: (context) => const LoginView(),
       registerRoute: (context) => const RegisterView(),
       notesRoute: (context) => const NotesView(),
+      verifyEmailRoute: (context) => const VerifyEmailView(),
     },
   ));
 }
