@@ -6,6 +6,6 @@ class AuthUser {
   final bool isEmailVerified;
   const AuthUser(this.isEmailVerified);
 
-  factory AuthUser.fromFirebase(User user) =>
-      AuthUser(user.emailVerified); //đây là constructor AuthUser() tại dòng 7
+  factory AuthUser.fromFirebase(User user) => AuthUser(
+      user.emailVerified); //đây là factory constructor AuthUser() tại dòng 7
 }

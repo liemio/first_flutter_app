@@ -4,6 +4,7 @@ import 'package:first_app/services/auth/auth_user.dart';
 //đăng nhập bằng tài khoản apple, facebook, goole, ... thì cũng tuân theo
 //interface này
 abstract class AuthProvider {
+  Future<void> initialize();
   AuthUser? get currentUser;
   //Không cần dấu chấm hỏi trong Future<AuthUser?> logIn() vì nếu sai email,
   //password thì sẽ trả về error chứ không trả về AuthUser
